@@ -1,0 +1,54 @@
+[info] [gradle-server] Gradle Server started, listening on 43063
+[info] Gradle client connected to server
+[info] [gradle-server] Downloading https://services.gradle.org/distributions/gradle-9.0.0-bin.zip
+[info] Java Home: /home/codespace/.vscode-remote/extensions/redhat.java-1.46.0-linux-x64/jre/21.0.8-linux-x86_64
+[info] JVM Args: -XX:+UseG1GC,-XX:MaxMetaspaceSize=1g,-Xmx4g,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant
+[info] Gradle User Home: /home/codespace/.gradle
+[info] Gradle Version: 9.0.0
+[error] FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/workspaces/android.v3.8.2/build.gradle' line: 26
+
+* What went wrong:
+Plugin [id: 'com.facebook.react.settings'] was not found in any of the following sources:
+
+- Gradle Core Plugins (plugin is not in 'org.gradle' namespace)
+- Included Builds (No included builds contain this plugin)
+- Plugin Repositories (plugin dependency must include a version number for this source)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+CONFIGURE FAILED in 12s
+[error] [gradle-server] The supplied build action failed with an exception.
+[error] Error getting build for /workspaces/android.v3.8.2: The supplied build action failed with an exception.
+[info] Java Home: /home/codespace/.vscode-remote/extensions/redhat.java-1.46.0-linux-x64/jre/21.0.8-linux-x86_64
+[info] JVM Args: -XX:+UseG1GC,-XX:MaxMetaspaceSize=1g,-Xmx4g,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant
+[info] Gradle User Home: /home/codespace/.gradle
+[info] Gradle Version: 9.0.0
+[error] FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/workspaces/android.v3.8.2/build.gradle' line: 26
+
+* What went wrong:
+Plugin [id: 'com.facebook.react.settings'] was not found in any of the following sources:
+
+- Gradle Core Plugins (plugin is not in 'org.gradle' namespace)
+- Included Builds (No included builds contain this plugin)
+- Plugin Repositories (plugin dependency must include a version number for this source)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+CONFIGURE FAILED in 260ms
+[error] Error getting build for /workspaces/android.v3.8.2: The supplied build action failed with an exception.
+[info] Found 0 tasks
+[error] [gradle-server] The supplied build action failed with an exception.
