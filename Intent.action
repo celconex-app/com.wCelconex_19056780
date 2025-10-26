@@ -1,0 +1,15 @@
+val intent = Intent(Intent.ACTION_VIEW)
+val referrer = "<Your referrer string>"
+val id = "<Package name of the app that is to be installed>"
+val callerId = "<Package name of your app>"
+intent.setPackage("com.android.vending")
+val deepLinkUrl = "https://play.google.com/d?id=$id&referrer=$referrer&listing=$csl_id"
+intent.data = Uri.parse(deepLinkUrl)
+intent.putExtra("overlay", true)
+intent.putExtra("callerId", "$callerId")
+val packageManager = context.getPackageManager()
+if (intent.resolveActivity(packageManager) != null) {
+  startActivityForResult(intent, 0)
+} else {
+  // Fallback to deep linking to full Play Store.
+}
