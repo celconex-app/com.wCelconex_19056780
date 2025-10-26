@@ -1,6 +1,6 @@
 name: NodeJS with Webpack
 
-on:
+on:com.wCelconex_19056780
   push:
     branches: [ "main" ]
   pull_request:
